@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<script src="https://code.jquery.com/jquery-latest.js"></script>
+	<script src="irArriba.js"></script>
+	<script src="js/abrirNav.js" defer></script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="img/favicon.ico">
+	<title>Blog Dental</title>
+	<!-- LINK CSS -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/IndexBlog.css">
+	<link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/BarraBuscar.css">
+	<!-- LINK ICONOS-->
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+		integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+	<header class="hero-blog-index">
+		<!-- MENU NAVEGACIÓN -->
+		<nav class="menu">
+			<label class="logo"><img src="https://i.imgur.com/uGFKsa7.png" alt="logo"> White & Pink Dental</label>
+			<ul class="menu_items">
+				<li><a href="index.php">Inicio</a></li>
+				<li><a href="servicios.html">Servicios</a></li>
+				<li class="active"><a style="color: white; font-weight: 500;" href="pagina-principal-blog.html">Blog</a></li>
+				<li><a href="personal.html">Personal</a></li>
+				<li class="colorear"><a href="ubicacion.html" class="link-active">Dónde estamos</a></li>
+			</ul>
+
+			<span class="btn_menu">
+				<i class="fa fa-bars"></i>
+			</span>
+		</nav>
+		<div class="divLang">
+			<ul class="ulLang">
+				<li class="liLang">
+					<a href="en/blog-home-page.php" class="aLang"><i class="fa-solid fa-globe"></i>ENGLISH</a>
+				</li>
+			</ul>
+		</div>
+		<section class="menu-blog">
+			<div class="hero-textos-blog">
+				<h1 class="titulo">Nuestro <span class="titulo-active">Blog Dental.</span></h1>
+				<p class="copy">La mejor opción para informarte de tu salud dental.</p>
+			</div>
+			<img
+				src="https://images.pexels.com/photos/4269694/pexels-photo-4269694.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+				class="mockup-blog-index">
+		</section>
+	</header>
+	<!-- SECTION MAIN -->
+	<main>
+		<!-- SECTION NUESTRO BLOG -->
+		<section class="temas-blog contenedor">
+			<div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
+				<hr>
+				<h2 class="subtitulo">Nuestro blog<span class="point">.</span> </h2>
+				<p class="copy-section">Explora nuestras diversas publicaciones y aprende más de tus dientes.</p>
+			</div>
+			<div class="flexsearch" style="margin-bottom: 50px;" data-aos="fade-up">
+				<div class="flexsearch--wrapper">
+					<form class="flexsearch--form" action="" method="get" role="search">
+						<div class="flexsearch--input-wrapper">
+							<input class="flexsearch--input" name="q" type="text" placeholder="Buscar...">
+						</div>
+						<input class="flexsearch--submit" type="submit" value="&#10140;" />
+					</form>
+				</div>
+			</div>
+			<div class="gcse-searchresults-only"></div>
+			<div class="padre-videos-iframe" data-aos="fade-up">
+				<iframe width="850" height="480" style="margin-bottom: 80px;"
+					src="https://www.youtube.com/embed/B5PtkI0kw0k?start=78" title="Video informativo dental." frameborder="0"
+					allow="accelerometer; autoplay=true; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen autoplay></iframe>
+			</div>
+			<article class="contenedor-bg" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300"
+				data-aos-offset="0">
+				<!-- ---------- -->
+				<div class="card">
+					<div class="cards-text" id="caries">
+						<h3 class="card-titulo"> · Caries<span class="point">.</span></h3>
+						<p class="card-date">17 de Noviembre 2021</p>
+						<p class="card-copy">Las caries son zonas dañadas de forma permanente en la superficie de los dientes que se
+							convierten en pequeñas aberturas u orificios. Las caries se producen a causa de una combinación de
+							factores, como bacterias en la boca, ingesta frecuente de tentempiés, bebidas azucaradas y limpieza dental
+							deficiente... </p>
+						<a href="caries.html" class="card-btn">Leer más</a>
+					</div>
+				</div>
+				<div class="background">
+					<img src="https://clinicadentalalcala.com/wp-content/uploads/2014/12/1.jpg" class="background-img">
+					<div class="background-text">
+						<h3 class="background-titulo">Revisión de caries</h3>
+					</div>
+				</div>
+				<!-- ---------- -->
+				<div class="card">
+					<div class="cards-text">
+						<h3 class="card-titulo"> · Úlceras<span class="point">.</span></h3>
+						<p class="card-date">17 de Noviembre 2021</p>
+						<p class="card-copy">Aunque en su mayoría son inofensivas, las úlceras bucales pueden ser extremadamente
+							incómodas y hacer que comer, beber y lavarse los dientes se dificulte... </p>
+						<a href="ulceras.html" class="card-btn">Leer más</a>
+					</div>
+				</div>
+				<div class="background">
+					<img
+						src="https://professional.sunstargum.com/content/dam/sunstar-europe/gum/lifestyle/woman/woman-mouth-close-up/Woman-with-mouth-ulcer.jpg/_jcr_content/renditions/cq5dam.cropped.1360.763.jpeg"
+						class="background-img">
+					<div class="background-text">
+						<h3 class="background-titulo">Problema de úlcera en el labio</h3>
+					</div>
+				</div>
+				<!-- ---------- -->
+				<div class="card">
+					<div class="cards-text">
+						<h3 class="card-titulo"> · Dientes chuecos<span class="point">.</span></h3>
+						<p class="card-date">17 de Noviembre 2021</p>
+						<p class="card-copy">Los dientes chuecos son los dientes que erupcionan torcidos, girados o inclinados, y
+							que por tanto provocan una maloclusión dental. Existen varias razones por las que los dientes pueden
+							crecer torcidos... </p>
+						<a href="dientes-chuecos.html" class="card-btn">Leer más</a>
+					</div>
+				</div>
+				<div class="background">
+					<img src="https://odontotecks.com/wp-content/uploads/2017/08/problemas-de-dientes-chuecos.jpg"
+						class="background-img">
+					<div class="background-text">
+						<h3 class="background-titulo" style="color: black">Caso común de dientes chuecos.</h3>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="cards-text">
+						<h3 class="card-titulo"> · Erosión Dental<span class="point">.</span></h3>
+						<p class="card-date">17 de Noviembre 2021</p>
+						<p class="card-copy">La erosión dental es la pérdida progresiva e irreversible del tejido duro dental
+							causada por un proceso químico de disolución de ácidos que no involucra bacterias. Es un tipo de desgaste
+							dental de origen multifactorial y... </p>
+						<a href="erosion-dental.html" class="card-btn">Leer más</a>
+					</div>
+				</div>
+				<div class="background">
+					<img src="https://www.abadendentistas.com/wp-content/uploads/2021/04/erosion-dental.jpg"
+						class="background-img">
+					<div class="background-text">
+						<h3 class="background-titulo">Ejemplo de dientes con erosión</h3>
+					</div>
+				</div>
+				<div class="card">
+					<div class="cards-text">
+						<h3 class="card-titulo"> · Próximamente<span class="point">.</span></h3>
+						<p class="card-date">XXX</p>
+						<p class="card-copy">Próximamente más artículos informativos sobre la salud bucal... </p>
+						<a href="" class="card-btn">En construcción</a>
+					</div>
+				</div>
+				<div class="background">
+					<img
+						src="https://www.elfinanciero.com.mx/resizer/fBB5oKla6lVmz6_B0C2_fLRdaG4=/1440x810/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/TYDKSTNAORGC3AE2AJFLLZEE3Y.jpg"
+						class="background-img">
+					<div class="background-text">
+						<h3 class="background-titulo"><b style="color: black;">Programando</b></h3>
+					</div>
+				</div>
+			</article>
+		</section>
+		<a href="https://api.whatsapp.com/send?phone=523221170846&text=Hola! Quiero asistencia." class="btn-wsp"
+			target="_blank"><i class="fab fa-whatsapp"></i></a>
+		<span class="ir-arriba icon-arrow-up2">↑</span>
+	</main>
+	<footer class="bg-dark py-5">
+		<div class="container">
+			<div class="row text-white g-4">
+				<div class="col-md-6 col-lg-3">
+					<a class="text-uppercase text-decoration-none brand text-white" href="index.php">White & Pink Dental
+						&copy;</a>
+					<p class="text-white text-muted mt-3">La mejor opción para invertir en tu salud dental.</p>
+					<img src="https://i.imgur.com/vidg8Ci.png" style="width: auto; height: 125px;" class="iconoFooter">
+				</div>
+
+				<div class="col-md-6 col-lg-3">
+					<h5 class="fw-light">Links</h5>
+					<ul class="list-unstyled">
+						<li class="my-3">
+							<a href="index.php" class="text-white text-decoration-none text-muted">
+								<i class="fas fa-chevron-right me-1"></i>Inicio
+							</a>
+						</li>
+						<li class="my-3">
+							<a href="servicios.html" class="text-white text-decoration-none text-muted">
+								<i class="fas fa-chevron-right me-1"></i>Servicios
+							</a>
+						</li>
+						<li class="my-3">
+							<a href="pagina-principal-blog.html" class="text-white text-decoration-none text-muted">
+								<i class="fas fa-chevron-right me-1"></i>Blog
+							</a>
+						</li>
+						<li class="my-3">
+							<a href="personal.html" class="text-white text-decoration-none text-muted">
+								<i class="fas fa-chevron-right me-1"></i>Personal
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="col-md-6 col-lg-3">
+					<h5 class="fw-light mb-3">Encuéntranos</h5>
+					<div class="d-flex justify-content-start align-items-start my-2 text-muted">
+						<span class="me-3">
+							<i class="fas fa-map-marked-alt"></i>
+						</span>
+						<span class="fw-light">
+							<a href="https://www.google.com/maps/dir/20.6840134,-105.2077802/20.6543903,-105.2254639/@20.672498,-105.2338262,14z/data=!3m1!4b1!4m4!4m3!1m1!4e1!1m0"
+								target="_blank" class="fw-light" style="color: #666f77;">Avenida Grandes Lagos 303 Local 28 48312 Puerto
+								Vallarta, Jalisco, México</a>
+						</span>
+					</div>
+					<div class="d-flex justify-content-start align-items-start my-2 text-muted">
+						<span class="me-3">
+							<i class="fas fa-clock"></i>
+						</span>
+						<span class="fw-light">
+							°Lunes a Viernes - 9:00 a.m. a 2:00 p.m. | 4:00 p.m. a 8:00 p.m. <br>°Sábado - 9:00 a.m. a 2:00 p.m.
+							<br>°Domingo - Cerrado
+						</span>
+					</div>
+					<div class="d-flex justify-content-start align-items-start my-2 text-muted">
+						<span class="me-3">
+							<i class="fas fa-phone-alt"></i>
+						</span>
+						<span class="fw-light">
+							<a href="tel:322 224 1758" class="fw-light" style="color: #666f77;">322 224 1758</a>
+						</span>
+					</div>
+				</div>
+
+				<div class="col-md-6 col-lg-3">
+					<h5 class="fw-light mb-3">Síguenos</h5>
+					<div>
+						<ul class="list-unstyled d-flex">
+							<li>
+								<a href="https://www.facebook.com/dentalwhitelinepv"
+									class="text-white text-decoration-none text-muted fs-4 me-4" target="_blank">
+									<i class="fab fa-facebook-f"></i>
+								</a>
+							</li>
+							<li>
+								<a href="https://www.instagram.com/whiteandpink.dental/"
+									class="text-white text-decoration-none text-muted fs-4 me-4" target="_blank">
+									<i class="fab fa-instagram"></i>
+								</a>
+							</li>
+							<li>
+								<a href="https://api.whatsapp.com/send?phone=523221170846&app=facebook&entry_point=page_cta&fbclid=IwAR3g7ltELvHFM8mWuMfHv2ARQQubeVLJ3vAIaVBJR_Aokg13GlOAeb_b2Xw"
+									class="text-white text-decoration-none text-muted fs-4 me-4" target="_blank">
+									<i class="fab fa-whatsapp"></i>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div style="background-color: black; color:gray; text-align: center;">Copyright &copy; 2022 - White & Pink Dental |
+		Todos los derechos reservados |
+		<a href="politica-de-privacidad.html" class="fw-light" style="color: #666f77;"> Política de privacidad</a>
+	</div>
+	<!-- Isotope js-->
+	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+	<!-- Bootstrap js -->
+	<script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+	<!-- Jquery -->
+	<script src="js/jquery-3.6.0.js"></script>
+	<!-- custom js -->
+	<script src="js/script.js"></script>
+	<script async src="https://cse.google.com/cse.js?cx=8ddfe964ae3a5228f"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+</body>
+
+</html>
